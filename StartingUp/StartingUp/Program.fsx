@@ -5,12 +5,14 @@ open System
 #load "DoFunctions.fs"
 #load "DoMath.fs"
 #load "StringStuff.fs"
+#load "LoopStuff.fs"
 open Manipulation
 open HelloWorld
 open BindStuff
 open DoFunctions
 open DoMath
 open StringStuff
+open LoopStuff
 
 StringManipulation.dynamicSpacing()
 NumberManipulation.FloatLimitation()
@@ -20,8 +22,10 @@ Functions.DisplaySum()
 Functions.RunFactorial()
 Functions.DoubleList()
 Functions.MultiNum()
-Maths.basic()
-Strings.doStuff()
+Maths.Basic()
+Strings.DoStuff()
+//Loops.WhileLoops()
+Loops.ForLoops()
 
 // Question.AskName()
 

@@ -11,7 +11,7 @@ module Strings =
     
         
 
-    let doStuff() = 
+    let DoStuff() = 
         printfn "Length : %i" (String.length str3)
         printfn "1st Word : %s" (str3.[0..3])
         printfn "String collect %s" upper_str

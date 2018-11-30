@@ -1,7 +1,7 @@
 namespace DoMath
 
 module Maths =
-    let basic() =
+    let Basic() =
         let a = 5;
         let b = 4;
         let c = 5.0;
