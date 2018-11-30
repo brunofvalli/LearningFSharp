@@ -33,8 +33,8 @@ module Lists =
 
         list4.Item(4) |> printfn "Index 4 in list 4 %c"
 
-        list4.Head |> printfn "List4 head %c"
-        list4.Tail |> printfn "List4 tail %c"
+        printfn "List4 head %c" list4.Head 
+        printfn "List4 tail %A" list4.Tail
 
         list3 |> List.filter (fun x -> x % 2 = 0) |> printfn "Even numbers on list3 %A"
         list1 |> List.map (fun x -> (x * x)) |> printfn "Doubld list1 %A"

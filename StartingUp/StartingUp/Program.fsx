@@ -8,6 +8,7 @@ open System
 #load "LoopStuff.fs"
 #load "ConditionalStuff.fs"
 #load "ListStuff.fs"
+#load "EnumStuff.fs"
 
 open Manipulation
 open HelloWorld
@@ -18,6 +19,7 @@ open StringStuff
 open LoopStuff
 open ConditionalStuff
 open ListStuff
+open Enums
 
 StringManipulation.dynamicSpacing()
 NumberManipulation.FloatLimitation()
@@ -33,5 +35,6 @@ Strings.DoStuff()
 Loops.ForLoops()
 Conditionals.IfStatement()
 Lists.ListLiteral()
+Enums.Run()
 
 // Question.AskName()
