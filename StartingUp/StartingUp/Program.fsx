@@ -11,6 +11,7 @@ open System
 #load "EnumStuff.fs"
 #load "OptionStuff.fs"
 #load "TupleStuff.fs"
+#load "RecordStuff.fs"
 
 open Manipulation
 open HelloWorld
@@ -24,6 +25,7 @@ open ListStuff
 open EnumStuff
 open OptionStuff
 open TupleStuff
+open RecordStuff
 
 // StringManipulation.dynamicSpacing()
 // NumberManipulation.FloatLimitation()
@@ -42,5 +44,6 @@ open TupleStuff
 // Enums.Run()
 // Options.runMe()
 Tuples.runMe()
+Records.runMe()
 
 // Question.AskName()
