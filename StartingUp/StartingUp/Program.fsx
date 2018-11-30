@@ -7,6 +7,8 @@ open System
 #load "StringStuff.fs"
 #load "LoopStuff.fs"
 #load "ConditionalStuff.fs"
+#load "ListStuff.fs"
+
 open Manipulation
 open HelloWorld
 open BindStuff
@@ -15,6 +17,7 @@ open DoMath
 open StringStuff
 open LoopStuff
 open ConditionalStuff
+open ListStuff
 
 StringManipulation.dynamicSpacing()
 NumberManipulation.FloatLimitation()
@@ -29,7 +32,6 @@ Strings.DoStuff()
 //Loops.WhileLoops()
 Loops.ForLoops()
 Conditionals.IfStatement()
+Lists.ListLiteral()
 
 // Question.AskName()
-
-System.Console.ReadKey() |> ignore
