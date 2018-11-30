@@ -1,10 +1,17 @@
 namespace DoFunctions
 
-module DoFunctions = 
-    //let getSum (x : int, y :int) : int = x + y
-        // let n1 = 5
-        // let n2 = 7
-        // printfn "%i + %i = %i" n1 n2 (getSum(n1, n2))
+module Functions = 
+    let getSum (x : int, y :int) : int = x + y
     let displaySum() = 
-        // printfn "5 + 7 = %i" (getSum(5, 7))
-        printfn "5 + 7 = %i" (5 + 7)
+        let n1 = 5
+        let n2 = 7
+        printfn "%i + %i = %i" n1 n2 (getSum(n1, n2))
+    let rec factorial x =
+        if x < 1 then 1
+        else x * factorial (x - 1)
+
+    let runFactorial() =
+        let x = 4
+        printf "%i! = %i" x (factorial x)
+
+    
