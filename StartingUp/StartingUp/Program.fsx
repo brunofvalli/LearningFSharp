@@ -13,6 +13,7 @@ open System
 #load "TupleStuff.fs"
 #load "RecordStuff.fs"
 #load "SequenceStuff.fs"
+#load "MapStuff.fs"
 
 open Manipulation
 open HelloWorld
@@ -28,6 +29,7 @@ open OptionStuff
 open TupleStuff
 open RecordStuff
 open SequenceStuff
+open MapStuff
 
 // StringManipulation.dynamicSpacing()
 // NumberManipulation.FloatLimitation()
@@ -47,6 +49,7 @@ open SequenceStuff
 // Options.runMe()
 //Tuples.runMe()
 //Records.runMe()
-Sequences.runMe()
+//Sequences.runMe()
+Maps.runMe()
 
 // Question.AskName()
