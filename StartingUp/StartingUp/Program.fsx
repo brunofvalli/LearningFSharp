@@ -16,6 +16,7 @@ open System
 #load "MapStuff.fs"
 #load "GenericStuff.fs"
 #load "ExceptionStuff.fs"
+#load "StructStuff.fs"
 
 open Manipulation
 open HelloWorld
@@ -34,6 +35,7 @@ open SequenceStuff
 open MapStuff
 open GenericStuff
 open ExceptionStuff
+open StructStuff
 
 // StringManipulation.dynamicSpacing()
 // NumberManipulation.FloatLimitation()
@@ -51,11 +53,12 @@ open ExceptionStuff
 // Lists.ListLiteral()
 // Enums.Run()
 // Options.runMe()
-//Tuples.runMe()
-//Records.runMe()
-//Sequences.runMe()
-//Maps.runMe()
-//Generics.runMe()
-Exceptions.runMe()
+// Tuples.runMe()
+// Records.runMe()
+// Sequences.runMe()
+// Maps.runMe()
+// Generics.runMe()
+// Exceptions.runMe()
+Structs.runMe()
 
 // Question.AskName()
