@@ -9,7 +9,7 @@ module StringManipulation =
         printfn "%*s" 10 "a"
         
 
-module NumberManipulation = 
+module  NumberManipulation = 
     let FloatLimitation() =
         let pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286M
         printfn "PI 4 digits: %.4f" pi
