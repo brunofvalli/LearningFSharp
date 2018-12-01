@@ -15,6 +15,7 @@ open System
 #load "SequenceStuff.fs"
 #load "MapStuff.fs"
 #load "GenericStuff.fs"
+#load "ExceptionStuff.fs"
 
 open Manipulation
 open HelloWorld
@@ -32,6 +33,7 @@ open RecordStuff
 open SequenceStuff
 open MapStuff
 open GenericStuff
+open ExceptionStuff
 
 // StringManipulation.dynamicSpacing()
 // NumberManipulation.FloatLimitation()
@@ -53,6 +55,7 @@ open GenericStuff
 //Records.runMe()
 //Sequences.runMe()
 //Maps.runMe()
-Generics.runMe()
+//Generics.runMe()
+Exceptions.runMe()
 
 // Question.AskName()
